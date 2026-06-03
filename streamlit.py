@@ -1,7 +1,7 @@
 import streamlit as st
 
-st.title("STUDENT REGISTRATION FORM")
 st.image("VVIT_Logo.png", width=100)
+st.title("STUDENT REGISTRATION FORM")
 n=st.text_input("NAME")
 e=st.text_input("EMAIL")
 a=st.number_input("AGE", 0, 100, 18)
